@@ -1,0 +1,41 @@
+{
+  "match_id": "maccabi-haifa-vs-beitar-2026-05-09",
+  "league": "Israeli Premier League",
+  "home": "Maccabi Haifa",
+  "away": "Beitar Jerusalem",
+  "kickoff_local": "2026-05-09T20:30:00+03:00",
+  "predicted_xi_home": {"formation": "4-1-4-1", "players": ["Heorhii Yermakov", "Jelle Bataille", "Abdoulaye Seck", "Sean Goldberg", "Yinon Feingsicht", "Ali Mohamed", "Ethane Azoulay", "Dolev Haziza", "Cedric Don", "Kenji Gorre", "Silva Kani"]},
+  "predicted_xi_away": {"formation": "4-3-3", "players": ["Miguel Silva", "Nana Antwi", "Brayan Carabali", "Luka Gadrani", "Yarden Cohen", "Boris Enow", "Yarden Shua", "Ziv Ben Shimol", "Omer Atzili", "Esson Gonzalez", "Johnbosco Kalu"]},
+  "key_absences": {
+    "home_injuries": [{"name": "Pedrao", "position": "CB", "expected_return": "unknown"}],
+    "home_suspensions": [],
+    "away_injuries": [{"name": "Yarin Levi", "position": "MF", "expected_return": "unknown"}, {"name": "Adi Yona", "position": "MF", "expected_return": "unknown"}],
+    "away_suspensions": []
+  },
+  "momentum_home": {"last_5": "LLLLW", "summary": "Heavy slump in mid-April (0-3 at Beitar, 1-3 vs Maccabi TA, 0-4 at Hapoel TA) followed by a 2-1 win at Hapoel Petah Tikva on May 2."},
+  "momentum_away": {"last_5": "WWWWW", "summary": "Outstanding run capped by a 4-2 win over Maccabi Tel Aviv on May 2; crushed Maccabi Haifa 3-0 in the reverse fixture in April."},
+  "fan_sentiment": {"home": {"label": "anxious", "summary": "Frustrated after heavy defeats; Bakhar under pressure."}, "away": {"label": "confident", "summary": "La Familia buoyant with Beitar atop the table chasing a long-awaited title."}},
+  "expected_attendance": "~5,000 (security cap due to 2026 Iran war restrictions; Sammy Ofer normally 30,700 capacity)",
+  "stakes": {"home": "Mid-table 5th, no European or relegation pressure; playing for pride and to derail a rival's title bid.", "away": "Top with one-point lead over Hapoel Be'er Sheva, chasing first league title in over a decade."},
+  "h2h_and_venue": {"last_5_h2h": "Beitar 3-0 (Apr 19, 2026 at Teddy); historical home advantage for Maccabi Haifa at Sammy Ofer has eroded.", "home_form_at_home": "Mixed home form; defense has conceded multiple goals in several recent fixtures.", "away_form_on_road": "Strong on the road; Beitar have taken points in most away trips during championship round."},
+  "market_odds": {
+    "polymarket": {"home_win_pct": 0, "draw_pct": 0, "away_win_pct": 0, "url": "unknown", "liquidity_note": "No active Polymarket market found for this Israeli Premier League fixture."},
+    "aggregator_implied_pct": {"home": 36, "draw": 23, "away": 41, "source": "Sports Mole / WinComparator (bookmaker lines)"},
+    "divergence_vs_sim": "Sim agrees with market that Beitar are slight favorites; within 10pp."
+  },
+  "simulation_phases": {
+    "p1_0_15": "Beitar press high with Atzili and Kalu stretching Haifa's back line. xG edge Beitar ~0.25 vs ~0.15. No goals likely; Haifa nervy.",
+    "p2_15_45": "Beitar dominate possession and create from set pieces — Carabali aerial threat. Most likely first goal: Beitar around 30-40'. xG Beitar ~0.7 vs Haifa ~0.4.",
+    "p3_45_60": "If Beitar lead, control mode; if level, Haifa push and home crowd lifts tempo. Bakhar likely brings on a forward.",
+    "p4_60_75": "Chasing Haifa leave gaps for Beitar's pace. Beitar's bench depth stronger.",
+    "p5_75_90": "Beitar keep probing — dropped points hand initiative to Be'er Sheva. Haifa's slump and lack of stakes blunts late urgency."
+  },
+  "sim_score_modal": "1-2",
+  "sim_score_distribution": {"1-2": 0.18, "0-1": 0.16, "1-1": 0.15, "0-2": 0.12, "2-2": 0.09, "other": 0.30},
+  "predicted_outcome": "2",
+  "confidence_pct": 58,
+  "key_factors": ["Beitar in red-hot form, fighting for title", "Beitar won reverse fixture 3-0 in April", "Maccabi Haifa lost 4 of last 5", "Haifa miss CB Pedrao; defense leaking goals", "Stakes asymmetry: Beitar must win, Haifa mid-table", "Reduced 5,000 attendance dampens home edge"],
+  "narrative": "Beitar Jerusalem arrive in Haifa on a five-match winning run with a one-point lead over Hapoel Be'er Sheva and the title in their hands. Maccabi Haifa are mid-table fifth, have leaked goals heavily over the last month, lost the April reverse 3-0, and miss CB Pedrao. The home crowd is capped near 5,000 due to wartime restrictions, blunting the usual Sammy Ofer advantage. Sim leans Beitar but with real downside variance.",
+  "data_freshness": "fresh",
+  "sources": ["https://www.foxsports.com/soccer/israeli-premier-league-maccabi-haifa-vs-bei-jerusalem-may-09-2026-game-boxscore-785406", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Israeli_Premier_League", "https://www.jpost.com/israel-news/sports/article-895537", "https://www.ynetnews.com/article/too7tu9dw", "https://www.maccabi-tlv.co.il/en/2026/05/beitar-beat-maccabi-4-2/", "https://www.sportsmole.co.uk/football/israeli-premier-league/beitar-jerusalem-vs-maccabi-haifa_game_246226.html", "https://www.transfermarkt.us/maccabi-haifa/sperrenundverletzungen/verein/1064", "https://www.transfermarkt.co.za/beitar-jerusalem/sperrenundverletzungen/verein/3793", "https://www.sofascore.com/football/match/beitar-jerusalem-maccabi-haifa/Xdcseec"]
+}
