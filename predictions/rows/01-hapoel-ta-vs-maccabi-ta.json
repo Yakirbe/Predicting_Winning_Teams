@@ -1,0 +1,90 @@
+{
+  "match_id": "hapoel-ta-vs-maccabi-ta-2026-05-09",
+  "league": "Israeli Premier League",
+  "home": "Hapoel Tel Aviv",
+  "away": "Maccabi Tel Aviv",
+  "kickoff_local": "2026-05-09T20:30:00+03:00",
+
+  "predicted_xi_home": {
+    "formation": "4-2-3-1",
+    "players": ["Dor Benyamini", "Marcus Coco", "Fernand Mayembo", "Chico", "unknown", "Roei Alkukin", "unknown", "Xande Silva", "unknown", "Stav Turiel", "Emmanuel Boateng"]
+  },
+  "predicted_xi_away": {
+    "formation": "4-3-3",
+    "players": ["Roi Mishpati", "Roy Revivo", "Mohamed Camara", "Raz Shlomo", "Tyrese Asante", "Issouf Sissokho", "Dor Peretz", "Elad Madmon", "Sagiv Jehezkel", "Emir Sahiti", "Helio Varela"]
+  },
+
+  "key_absences": {
+    "home_injuries": [{"name": "unknown", "position": "unknown", "expected_return": "unknown"}],
+    "home_suspensions": [
+      {"name": "El Yam Kancepolsky", "position": "MF", "reason": "red card vs Beitar Jerusalem on 2026-05-06"},
+      {"name": "Doron Leidner", "position": "DF", "reason": "suspension carried over from yellow-card accumulation"}
+    ],
+    "away_injuries": [{"name": "unknown", "position": "unknown", "expected_return": "unknown"}],
+    "away_suspensions": [{"name": "unknown", "position": "unknown", "reason": "unknown"}]
+  },
+
+  "momentum_home": {"last_5": "WLWLL", "summary": "Mixed run capped by a 1-0 home defeat to Beitar three days before the derby, with a red card to Kancepolsky compounding the pain."},
+  "momentum_away": {"last_5": "WWWLW", "summary": "Strong April form interrupted by 4-2 loss at Beitar, then bounced back with 4-0 thrashing of Hapoel Petah Tikva on May 5."},
+
+  "fan_sentiment": {
+    "home": {"label": "anxious", "summary": "Supporters frustrated after losing to Beitar at home and slipping in the title race; pressure on Barda to deliver in the derby."},
+    "away": {"label": "split", "summary": "Maccabi fans buoyed by the 1-0 derby win in April but title hopes faded after the Beitar 4-2 loss left them 9 points off the top."}
+  },
+
+  "expected_attendance": "near capacity (~28000-29000 at Bloomfield, high-security derby)",
+
+  "stakes": {
+    "home": "Fighting to hold a Conference League / European spot, also seeking a derby win to ease the disappointment of the Beitar loss and the points deduction.",
+    "away": "Title hopes mathematically alive but fading (9 pts behind Beitar); must win to keep external pressure on the leaders."
+  },
+
+  "h2h_and_venue": {
+    "last_5_h2h": "Maccabi has dominated long-term but Hapoel won 2-1 in January 2026; Maccabi replied 1-0 in April 2026 and 3-0 in October 2025.",
+    "home_form_at_home": "Strong at Bloomfield until the recent 0-1 loss to Beitar - first home defeat of the season.",
+    "away_form_on_road": "Solid away form under Deila with notable 4-1 win at Hapoel Haifa, vulnerable as shown in 4-2 loss at Beitar."
+  },
+
+  "market_odds": {
+    "polymarket": {"home_win_pct": 0, "draw_pct": 0, "away_win_pct": 0, "url": "unknown", "liquidity_note": "not gathered (pre-Polymarket prompt)"},
+    "aggregator_implied_pct": {"home": 0, "draw": 0, "away": 0, "source": "unknown"},
+    "divergence_vs_sim": "unknown — market data not gathered for match 1"
+  },
+
+  "simulation_phases": {
+    "p1_0_15": "Hapoel come out emotionally charged at home in front of a hostile derby crowd; expect a high-press, high-intensity opening. Maccabi look to absorb and counter through Sahiti and Varela on the flanks. xG roughly even (~0.15 each).",
+    "p2_15_45": "Maccabi typically settle and dominate possession; with Peretz orchestrating and Sahiti's set-piece threat, they generate the better chances. Hapoel without Kancepolsky struggle in transitions. xG edge to Maccabi ~0.6 vs ~0.35.",
+    "p3_45_60": "Barda likely makes a halftime tactical tweak. Hapoel come out with renewed urgency in front of the home end. Phase fairly even.",
+    "p4_60_75": "Substitutions become decisive — Maccabi's bench is deeper. Game state tilts to Maccabi if leading.",
+    "p5_75_90": "If level, Hapoel throw bodies forward; Maccabi's experience and need to keep title math alive favors them in the closing minutes."
+  },
+
+  "sim_score_modal": "1-1",
+  "sim_score_distribution": {"1-1": 0.18, "0-1": 0.16, "1-2": 0.14, "1-0": 0.11, "0-0": 0.10, "other": 0.31},
+
+  "predicted_outcome": "2",
+  "confidence_pct": 48,
+
+  "key_factors": [
+    "Maccabi superior squad depth and recent derby winners",
+    "Hapoel missing Kancepolsky (red) and Leidner (suspended)",
+    "Hapoel coming off a home loss to Beitar",
+    "Maccabi must-win for fading title chase",
+    "Bloomfield derby crowd boost for hosts",
+    "Peretz in red-hot scoring form (14 league goals)"
+  ],
+  "narrative": "Maccabi Tel Aviv arrive at Bloomfield as the technically superior side with a sharper attack led by captain Dor Peretz, and a recent 1-0 derby win in the bag. Hapoel Tel Aviv are wounded — a 1-0 home loss to Beitar three days earlier, suspensions to Kancepolsky and Leidner, and the 2-point deduction all sap momentum. Maccabi needs the win to keep title hopes mathematically alive. The derby's emotional charge narrows the gap — draws and one-goal games are realistic — but on balance Maccabi shade it.",
+
+  "data_freshness": "fresh",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Israeli_Premier_League",
+    "https://www.maccabi-tlv.co.il/en/2026/04/maccabi-win-derby-1-0/",
+    "https://www.maccabi-tlv.co.il/en/2026/05/beitar-beat-maccabi-4-2/",
+    "https://www.maccabi-tlv.co.il/en/2026/05/maccabi-beat-petah-tikva-4-0-3/",
+    "https://www.jpost.com/israel-news/sports/article-895537",
+    "https://www.ynetnews.com/article/too7tu9dw",
+    "https://www.sofascore.com/football/match/hapoel-tel-aviv-maccabi-tel-aviv/YdcsWhc",
+    "https://www.fotmob.com/matches/beitar-jerusalem-vs-hapoel-tel-aviv/2saieg",
+    "https://en.wikipedia.org/wiki/Tel_Aviv_derby"
+  ]
+}
