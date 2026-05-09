@@ -1,0 +1,41 @@
+{
+  "match_id": "bnei-reineh-vs-kiryat-shmona-2026-05-09",
+  "league": "Israeli Premier League",
+  "home": "Maccabi Bnei Reineh",
+  "away": "Hapoel Ironi Kiryat Shmona",
+  "kickoff_local": "2026-05-09T20:15:00+03:00",
+  "predicted_xi_home": {"formation": "4-2-3-1", "players": ["Lior Gliklich", "Eyad Khutaba", "Mor Brami", "Ayed Habashi", "Nevo Shedo", "Christ Tiehi", "Emmanuel Banda", "Antonio Sefer", "Iyad Khalaili", "Muhammad Shaker", "Vitalie Damascan"]},
+  "predicted_xi_away": {"formation": "4-2-3-1", "players": ["Daniel", "Ido Vaier", "Nemanja Ljubisavljevic", "Shay David", "Itzik Shoolmayster", "Cristian Martinez", "Yaw Ackah", "Fernando Pacheco", "Ariel Sheratzky", "Yair Mordechai", "Adrian Ugarriza"]},
+  "key_absences": {
+    "home_injuries": [{"name": "Omri Altman", "position": "FW/AM", "expected_return": "match-fit, returning after 4-match knee absence"}],
+    "home_suspensions": [],
+    "away_injuries": [{"name": "Noa Cohen", "position": "unknown", "expected_return": "unknown"}, {"name": "Bilal Shaheen", "position": "FW", "expected_return": "unknown"}, {"name": "Or Dadia", "position": "unknown", "expected_return": "unknown"}, {"name": "Sekou Bangoura", "position": "MF", "expected_return": "doubtful"}],
+    "away_suspensions": []
+  },
+  "momentum_home": {"last_5": "LWWDL", "summary": "Mixed playoff-round form: hammered 0-4 by Netanya and 1-2 by Tiberias, but back-to-back wins at Hapoel Haifa (3-2) and Bnei Sakhnin (2-0)."},
+  "momentum_away": {"last_5": "WLWLW", "summary": "Inconsistent — recent 1-0 win over Hapoel Haifa (May 3) and 2-0 at Bnei Sakhnin once survival pressure was lifted."},
+  "fan_sentiment": {"home": {"label": "anxious", "summary": "Do-or-die mood — bottom of table, 6+ points off safety; desperate but defiant after recent away wins."}, "away": {"label": "split", "summary": "Stay-up secured; relaxed but coach demanded 'no excuses, must beat Reineh'."}},
+  "expected_attendance": "~3000 (near capacity for Green Stadium, Nof HaGalil)",
+  "stakes": {"home": "Mathematically alive but must win all three remaining; bottom of table, 11 pts, GD -40.", "away": "Already mathematically safe in 10th on 24 pts; nothing tangible to play for."},
+  "h2h_and_venue": {"last_5_h2h": "10 meetings since 2022 split 4W-2D-4W; first leg this season Kiryat Shmona won 3-1 at home (Sept 2025).", "home_form_at_home": "Poor — only a handful of home wins all season.", "away_form_on_road": "Modest — recent 2-0 at Sakhnin shows ability when motivated."},
+  "market_odds": {
+    "polymarket": {"home_win_pct": 0, "draw_pct": 0, "away_win_pct": 0, "url": "unknown", "liquidity_note": "No active Polymarket market"},
+    "aggregator_implied_pct": {"home": 0, "draw": 0, "away": 0, "source": "unknown"},
+    "divergence_vs_sim": "Market data not available; sim relies on signals only — confidence reduced modestly."
+  },
+  "simulation_phases": {
+    "p1_0_15": "Reineh aggressive at home; high press through Damascan and Sefer. Visitors absorb. xG edge ~0.25 vs ~0.10.",
+    "p2_15_45": "Reineh desperation creates chances but gaps too. Likely Reineh opener via Damascan from Shaker assist; Ugarriza could equalize on counter. xG ~0.7 vs 0.5.",
+    "p3_45_60": "Reuven keeps shape if leading; throws Altman on early if behind. Visitors no urgency, may cede territory.",
+    "p4_60_75": "Subs favor home: Altman / Goren / Kanani raise attacking output. Visitors rotate fringe players.",
+    "p5_75_90": "Home stakes drive a final surge. Reineh's defensive frailties (-40 GD) keep late equalizer plausible."
+  },
+  "sim_score_modal": "2-1",
+  "sim_score_distribution": {"2-1": 0.18, "1-1": 0.16, "1-0": 0.14, "2-0": 0.10, "1-2": 0.08, "other": 0.34},
+  "predicted_outcome": "1",
+  "confidence_pct": 48,
+  "key_factors": ["Bnei Reineh must-win desperation vs Kiryat Shmona dead-rubber", "Kiryat Shmona missing Shaheen, Cohen, Dadia; Bangoura doubtful", "Damascan-Shaker partnership delivered last two wins", "First leg Kiryat Shmona 3-1 win warns away upside exists", "Bnei Reineh worst defense in league, GD -40", "No market odds available; signal-only confidence"],
+  "narrative": "Maccabi Bnei Reineh host Kiryat Shmona at Green Stadium with their entire (already remote) survival hope on the line — bottom of the relegation playoff group on 11 points with -40 goal difference, they need to win all three remaining fixtures and hope for help. Kiryat Shmona are mathematically safe in 10th and travel without urgency, missing key attackers Shaheen, Cohen, Dadia plus a doubtful Bangoura. Home form has been poor, but the Damascan-Shaker axis has powered back-to-back wins at Haifa and Sakhnin and the do-or-die mood should tilt early possession to Reineh. Sim favors a narrow home win.",
+  "data_freshness": "fresh",
+  "sources": ["https://en.wikipedia.org/wiki/2025%E2%80%9326_Israeli_Premier_League", "https://www.foxsports.com/soccer/ironi-kiryat-shmona-team-standings", "https://m.aiscore.com/team-maccabi-bnei-raina/j374oied3gbrqo6/standings", "https://sports.walla.co.il/item/3836362", "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1846405/", "https://www.one.co.il/Article/509605.html", "https://www.aiscore.com/head-to-head/soccer-hapoel-kiryat-shmona-vs-maccabi-bnei-reineh", "https://en.wikipedia.org/wiki/Green_Stadium,_Nof_HaGalil", "https://www.besoccer.com/match/maccabi-bnei-raina-fc/hapoel-ironi-kiryat-shmona/202615665", "https://www.transfermarkt.us/maccabi-bnei-reineh/kader/verein/70178"]
+}
